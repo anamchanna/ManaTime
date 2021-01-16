@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <title>ManaTime</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="d-flex">
+            <div id="left-section" class="flex-fill">
+                <div class="d-flex burger-btn shadow-sm">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/Burger button.svg" width="25" height="25" alt="">
+                    </a>
+                </div>
+                <ul class="list-group sidenav">
+                    <li class="list-group-item lblue-bg"><img class="mr-3" src="./images/Accueil.svg" /> Accueil</li>
+                    <li class="list-group-item lblue-bg"><img class="mr-3" src="./images/Add.svg" /> Ajouter</li>
+                    <li class="list-group-item d-blue"><img class="mr-3" src="./images/Mon espace.svg" />
+                        <span>Mon espace </span>
+                        <img class="float-right" src="./images/Stripe.svg" /></li>
+                    <li class="list-group-item d-blue"><img class="mr-3" src="./images/Validation.svg" />
+                        <span> Validation </span>
+                        <img class="float-right" src="./images/Stripe.svg" /></li>
+                    <li class="list-group-item d-blue"><img class="mr-3" src="./images/Indicateurs.svg" />
+                        <span>Indicateurs</span>
+                        <img class="float-right" src="./images/Stripe.svg" /></li>
+                    <li class="list-group-item text-blue">
+                        <div class="flex-fill">
+                            <img class="mr-3" src="./images/soldes2.svg" /> Soldes
+                            <span class="float-right"><i class="fas fa-chevron-up"></i></span>
+                        </div>
+                        <div class="flex-fill">
+                            <ul class="dropdown-list">
+                                <li>
+                                    <a href="#" class="active">Gestion des soldes </a>
+                                </li>
+                                <li><a href="#">Adjuster un solde </a></li>
+                                <li><a href="#">Compteurs </a></li>
+                                <li><a href="#">Historique</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-blue"><img class="mr-3" src="./images/Recherche.svg" /> Recherche
+                        <span class="float-right"><i class="fas fa-chevron-down"></i></span>
+                    </li>
+                    <li class="list-group-item d-blue">
+                        <img class="img-fluid mt-6" src="./images/Graphic.svg" />
+                    </li>
+                </ul>
+            </div>
+
+            <div id="right-section" class="opacity">
+                <div class="top-nav d-flex bg-white pl-3 pr-3 justify-content-between right-nav opacity">
+                    <div class="flex-fill">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active">
+                                    <img height="30px" width="32px" src="./images/Absence_Icon.svg" class="mr-3" /> Absence
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page"> <img src="./images/vectorpaint.png" class="mr-3 grey" /> Sous module</li>
+                                <li class="breadcrumb-item active" aria-current="page"> Sous sous module</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="flex-fill d-flex justify-content-center align-items-center ">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link pr-0 active" href="#"><img height="32px" width="32px" src="./images/Help.svg" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img height="32px" width="32px" src="./images/Settings.svg" /></a>
+                            </li>
+
+                            <li class="nav-item user-info d-flex border-left">
+                                <div class="d-flex flex-column text-center">
+                                    <p class="name">Nom et Prenom</p>
+                                    <p class="company">Enterprise</p>
+                                </div>
+                                <img src="./images/Photo.png" height="42px" width="42px" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="menu-outer-container ">
+            <div class="menu-container visible">
+                <div class="menu-header">
+                    <img src="./images/Logo.svg" />
+                </div>
+                <div class="grid">
+
+                    <div class="menu-card">
+                        <img src="./images/Module_Planning.svg" />
+                        <p class="menu-title">Planning</p>
+                    </div>
+                    <div class="menu-card active">
+                        <img src="./images/Module_Absences.svg" />
+                        <p class="menu-title">Absences</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_Heures.svg" />
+                        <p class="menu-title">Heures</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_NotedeFrais.svg" />
+                        <p class="menu-title">Note de frais</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images//Module_Présence.svg" />
+                        <p class="menu-title">Presence</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_Compétences.svg" />
+                        <p class="menu-title">Competences</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_SalaireetPAie.svg" />
+                        <p class="menu-title">Salaire et paie</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_Entretiens.svg" />
+                        <p class="menu-title">Entretiens</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_Matériels.svg" />
+                        <p class="menu-title">Materiels</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/Mdule_Documents.svg" />
+                        <p class="menu-title">Documents</p>
+                    </div>
+                    <div class="menu-card">
+                        <img src="./images/Module_RH.svg" />
+                        <p class="menu-title">RH</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(".burger-btn").click(function() {
+            $(".menu-container").toggle();
+            $('.top-nav').toggleClass('opacity');
+            $('#right-section').toggleClass('opacity');
+        });
+    </script>
+</body>
+
+</html>
